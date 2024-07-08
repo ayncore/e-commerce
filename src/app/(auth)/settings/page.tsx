@@ -1,5 +1,4 @@
-import MaxWidthWrapper from "@/components/layout/max-width-wrapper";
-import Navbar from "../components/global/navbar";
+import MaxWidthWrapper from "@/components/global/max-width-wrapper";
 
 export default function Home() {
   return (
