@@ -8,8 +8,8 @@ export default function Home() {
       {/* <div className="flex flex-col"> */}
        
 
-          <Checkout />
-        
+          {/* <Checkout /> */}
+        <h1>gl</h1>
        
 
           {/* <CartList /> */}
