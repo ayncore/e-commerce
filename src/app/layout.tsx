@@ -21,11 +21,10 @@ export default function RootLayout({
 
 
         <Navbar />
-        <main className="main flex-1">
 
 
-          {children}
-        </main>
+
+        {children}
 
       </body>
     </html>

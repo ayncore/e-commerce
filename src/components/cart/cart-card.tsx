@@ -1,9 +1,9 @@
 import React from 'react'
 
-const CartCard = () => {
+const Cart = () => {
     return (
-        <div>CartCard</div>
+        <div>Cart</div>
     )
 }
 
-export default CartCard
+export default Cart;
