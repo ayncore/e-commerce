@@ -8,6 +8,25 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        dark: "var(--dark-color)",
+        light: "var(--light-color)",
+        darkBackground: "var(--dark-background)",
+        lightBackground: "var(--light-background)",
+        primary: "var(--primary)",
+        lightPrimary: "var(--light-primary)",
+        secondary: "var(--secondary)",
+        lightSecondary: "var(--light-secondary)",
+        accent: "var(--accent)",
+        darkAccent: "var(--dark-accent)",
+      },
+      screens: {
+        'xs': '340px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -17,4 +36,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
